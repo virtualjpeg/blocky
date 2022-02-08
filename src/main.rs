@@ -6,13 +6,13 @@ fn main() {
 
     let mut block = String::from("/");
     let mut whitespace = String::from("");
-    let subblock = String::from("//");
+    let subblock = String::from("///");
 
     for i in 0..input.len() {
         whitespace.push_str("  ");
     }
 
-    for i in 0..(whitespace.len() * 2) + input.len() + 3 { 
+    for i in 0..(whitespace.len() * 2) + input.len() + 5 { 
         block.push_str(&"/".to_string());
     }
     
