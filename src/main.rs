@@ -6,7 +6,7 @@ fn main() {
 
     let mut block = String::from("/");
     let mut whitespace = String::from("");
-    let subblock = String::from("//");
+    let subblock = String::from("///");
 
     for i in 0..input.len() {
         whitespace.push_str("  ");
