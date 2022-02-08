@@ -1,6 +1,5 @@
 use read_input::prelude::*;
 
-
 fn main() {
     let input = input::<String>().get();
 
